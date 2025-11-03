@@ -1,6 +1,1 @@
-echo "GEMINI_API_KEY status: ${GEMINI_API_KEY:+is set}"
 
-export GEMINI_API_KEY="AIzaSyBZKsuXZz-ANiAO4YQBxlpl4W-FFjJuAks"
-
-echo "GEMINI_API_KEY status: ${GEMINI_API_KEY:+is set}"        
-streamlit run app.py
