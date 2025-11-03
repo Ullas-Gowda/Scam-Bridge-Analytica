@@ -12,7 +12,7 @@ if not hasattr(importlib.metadata, "packages_distributions"):
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyBZKsuXZz-ANiAO4YQBxlpl4W-FFjJuAks")
+genai.configure(api_key="Insert your api key here")
 
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 
